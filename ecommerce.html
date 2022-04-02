@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body, html {
+        height: 100%;
+        background-image: url('https://cf.shopee.com.br/file/96b84e19ceffd472adcd3fedca78d9fe');
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+        #section-initial{
+            margin-top: 25px;
+            background-image: url('https://cdn.awsli.com.br/401/401079/produto/68746259/e8358f0cd0.jpg');
+            filter: blur(2px);
+            -webkit-filter: blur(2px);
+            width: 100%;
+            height: 600px;
+            color: #FCDB00;
+            font-family: monospace;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .navbar{
+            background-color: #FCDB00;
+            z-index: 999;
+            width: 100%;
+            margin-top: 0 !important;
+        }
+
+        #carousel-whysk{
+            background-color: #FCDB00;
+            border: 2;
+        }
+        .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+        color: #FCDB00;
+        font-weight: bold;
+        border: 3px solid #FCDB00;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 35px;
+        text-align: center;
+        }
+
+        .line{
+            border: 3px solid;
+            border-radius: 5px;
+            color: #FCDB00
+        }
+
+        .title-custom{
+            color: black;
+            border: 3px solid #FCDB00;
+            
+        }
+
+        .maps{
+            border-radius: 50%;
+        }
+
+        footer{
+            background-color: #FCDB00;
+            width: 100%;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Adega E&K</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link scrol-link" href="#promocao">promoção <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destaque">Destaques</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+    </nav>
+    <div class="container">
+        <section id="section-initial" class="text-center">
+        </section>
+        <h2 class="bg-text">
+            Seja bem vindo(a)! - Adega E&K
+        </h2>
+        <hr class="line"><br>
+        <div class="card">
+            <div class="card-body" id="promocao">
+                <br>
+                <h2 class="text-center title-custom">Promoções</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img src="https://www.bebidaonline.com.br/media/catalog/product/cache/1/thumbnail/800x/99cfa2db909aa8be0aba7059fa3f7550/b/o/bo2501_71wxjm41hdl._ac_sx679_.jpg" width="300" height="300" alt="">
+                        <h4 >Whisky Scooth blend Black Label</h4>
+                        <div class="text-danger"> De: R$: 399,90 un.</div>
+                        <div class="text-success">por: R$: <strong>379,90</strong> un.</div>
+                    </div><br>
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img src="https://www.mialich.com.br/up_produtos/78905498.jpeg" width="300" height="300" alt="">
+                        <h4> Cerveja Heineken 600ml</h4>
+                        <div class="text-danger">De: R$: 7,99 un.</div>
+                        <div class="text-success">por: R$: <strong>6,99</strong> un.</div>
+                    </div><br>
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/61JIkEuIQJL.__AC_SX300_SY300_QL70_ML2_.jpg" width="300" height="300" alt="">
+                        <h4 >Energético Red Bull 473ml</h4>
+                        <div class="text-danger">De: R$: 148,00 cx. com 12</div>
+                        <div class="text-success">por: R$: <strong>139,90</strong> un.</div>
+                    </div><br>                
+                </div>
+            </div>
+        </div>
+            <hr class="line">
+            <br>
+        <div class="card">
+            <div class="card-body">
+                <br>
+                <h2 class="text-center title-custom"id="destaque">Produtos em destaque</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img src="https://images-americanas.b2w.io/produtos/3274307616/imagens/whisky-chivas-royal-salute-21-anos-700ml/3274307624_1_large.jpg" width="300" height="300" alt="">
+                        <h4 >Whisky blended Royal Salute 21 anos</h4>
+                        <div class="">R$: 1.399,90 un.</div>
+                    </div><br>
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img src="https://emporiodacerveja.vtexassets.com/arquivos/ids/174971/Budweiser-330-6pack.png?v=637067545578500000" width="300" height="300" alt="">
+                        <h4> Cerveja Budweiser garrafa 330ml</h4>
+                        <div class="">R$: 27,99 cx.</div>
+                    </div><br>
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                        <img src="https://m.media-amazon.com/images/I/619bfPTYs3L._AC_SX679_.jpg" width="300" height="300" alt="">
+                        <h4 >Cerveja skol lata puro malte 350ml</h4>
+                        <div class="">R$: 35,00 cx. com 12</div>
+                    </div><br>                
+                </div>
+            </div>
+        </div>
+        <hr class="line">
+        <br>
+        <div class="card">
+            <div class="card-body" id="contato">
+                <br>
+                <h2 class="text-center title-custom">Endereço  / Contato</h2>
+                <br>
+                <div class="row text-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="">
+                            <img class="maps"src="endereço adega.PNG" width="300" height="auto" alt="maps">
+                            <br> <hr class="line">
+                            <span>
+                                <strong>Rua:</strong>
+                                Silvestre Loureço da Silva, Nº 1 - Vila Yolanda - Osasco
+                            </span>
+                            <p><a target="_blank" href="https://www.google.com/maps/place/R.+Silvestre+Louren%C3%A7o+da+Silva+-+Vila+Yolanda,+Osasco+-+SP,+06124-090/@-23.5475504,-46.7996587,18z/data=!4m5!3m4!1s0x94ceffbd7e35b4f9:0xd47d64f80495699d!8m2!3d-23.547548!4d-46.7983015">Ver no mapa</a></p>
+                            <hr class="line">
+                            <strong>Telefone:</strong><span> (11) 96231-8251</span> <br>
+                            <strong>Email:</strong><span> adegaek@contanto.com.br</span> <br>
+                            <br>
+                            <hr class="line">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <strong>Horário de funcionamento:</strong><br>
+                        Seg. à sexta das 9h00 às 01:00
+                        <br>
+                        <hr>
+                        <h2 class="title-custom text-center">Dúvidas, sugestões e melhorias.</h2>
+                        <br>
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" class="form-control">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="form-control">
+                        <label for="msg">Nome completo</label>
+                        <textarea name="msg" id="msg" cols="30" rows="10" class="form-control"></textarea>
+                        <br>
+                        <button class="btn btn-warning"> Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-white text-center">
+            <span>Copyright Distribuidora de bebidas E&K © 1998-2025</span>
+        </footer>
+</body>
+</html>
